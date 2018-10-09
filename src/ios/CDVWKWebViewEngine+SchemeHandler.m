@@ -1,7 +1,7 @@
-#import "CDVWKWebViewEngine+InputFocusFix.h"
+#import "CDVWKWebViewEngine+SchemeHandler.h"
 #import <objc/runtime.h>
 
-@implementation CDVWKWebViewEngine (InputFocusFix)
+@implementation CDVWKWebViewEngine (SchemeHandler)
 + (void) load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
